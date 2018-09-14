@@ -8,7 +8,7 @@ target 'DJISDKTest' do
   # Pods for DJISDKTest
   pod 'DJI-SDK-iOS', '4.7.1'
   pod 'DJI-UXSDK-iOS', '4.7.1'
-
+  
   target 'DJISDKTestTests' do
     inherit! :search_paths
     # Pods for testing
