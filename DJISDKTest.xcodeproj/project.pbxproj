@@ -15,9 +15,9 @@
 		1EDE0095214BE318003596D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE0094214BE318003596D7 /* main.m */; };
 		1EDE009F214BE318003596D7 /* DJISDKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE009E214BE318003596D7 /* DJISDKTestTests.m */; };
 		1EDE00AA214BE318003596D7 /* DJISDKTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE00A9214BE318003596D7 /* DJISDKTestUITests.m */; };
-		58504C87CC642494032429FB /* Pods_DJISDKTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C175BE193E479266AFEBC6 /* Pods_DJISDKTestTests.framework */; };
-		7ECFB9F94FF5073A0D2D56EA /* Pods_DJISDKTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD239D133D805BCDFDFA61 /* Pods_DJISDKTestUITests.framework */; };
-		AD64941E8791E0FE9CE1F625 /* Pods_DJISDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B53110D5631573A900991EE /* Pods_DJISDKTest.framework */; };
+		2090DB11720193F2677C0D23 /* Pods_DJISDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D833F04A7603063A3A536 /* Pods_DJISDKTest.framework */; };
+		4FDF63E5F831DB7123629FF3 /* Pods_DJISDKTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10BD2863D16197600C96A9D /* Pods_DJISDKTestTests.framework */; };
+		B71A2FEE591FBAA50C5BAF02 /* Pods_DJISDKTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC1D5DD5EE685C67552A70E /* Pods_DJISDKTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B53110D5631573A900991EE /* Pods_DJISDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDE0082214BE315003596D7 /* DJISDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJISDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDE0085214BE315003596D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EDE0086214BE315003596D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,11 +56,12 @@
 		1EDE00AB214BE318003596D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235D2B5AF1EDF9C132F666BD /* Pods-DJISDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTest/Pods-DJISDKTest.debug.xcconfig"; sourceTree = "<group>"; };
 		34B8CD74DD835E85C102EC91 /* Pods-DJISDKTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTestTests/Pods-DJISDKTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		35CD239D133D805BCDFDFA61 /* Pods_DJISDKTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A295154BADD9DE5D101B46E /* Pods-DJISDKTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTestTests/Pods-DJISDKTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		42C175BE193E479266AFEBC6 /* Pods_DJISDKTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6D833F04A7603063A3A536 /* Pods_DJISDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E612CEDDFA62A305368037A /* Pods-DJISDKTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTestUITests/Pods-DJISDKTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C10BD2863D16197600C96A9D /* Pods_DJISDKTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72154535260C273EA5329AC /* Pods-DJISDKTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTestUITests/Pods-DJISDKTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAC1D5DD5EE685C67552A70E /* Pods_DJISDKTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJISDKTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E180D578BB03F5938E2993E5 /* Pods-DJISDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISDKTest/Pods-DJISDKTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD64941E8791E0FE9CE1F625 /* Pods_DJISDKTest.framework in Frameworks */,
+				2090DB11720193F2677C0D23 /* Pods_DJISDKTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58504C87CC642494032429FB /* Pods_DJISDKTestTests.framework in Frameworks */,
+				4FDF63E5F831DB7123629FF3 /* Pods_DJISDKTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ECFB9F94FF5073A0D2D56EA /* Pods_DJISDKTestUITests.framework in Frameworks */,
+				B71A2FEE591FBAA50C5BAF02 /* Pods_DJISDKTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +96,9 @@
 		105FF1BD5C3FA9BD249FF97E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0B53110D5631573A900991EE /* Pods_DJISDKTest.framework */,
-				42C175BE193E479266AFEBC6 /* Pods_DJISDKTestTests.framework */,
-				35CD239D133D805BCDFDFA61 /* Pods_DJISDKTestUITests.framework */,
+				6F6D833F04A7603063A3A536 /* Pods_DJISDKTest.framework */,
+				C10BD2863D16197600C96A9D /* Pods_DJISDKTestTests.framework */,
+				DAC1D5DD5EE685C67552A70E /* Pods_DJISDKTestUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				1EDE007E214BE315003596D7 /* Sources */,
 				1EDE007F214BE315003596D7 /* Frameworks */,
 				1EDE0080214BE315003596D7 /* Resources */,
-				F0BE64FB10D1FBA226B96A50 /* [CP] Embed Pods Frameworks */,
+				71194126C5E3AE01D432F061 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,7 +338,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0BE64FB10D1FBA226B96A50 /* [CP] Embed Pods Frameworks */ = {
+		71194126C5E3AE01D432F061 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
